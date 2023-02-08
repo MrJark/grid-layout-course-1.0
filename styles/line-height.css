@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+  --size-height:20px;
+  --size-box:180px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: 'Lato', sans-serif;
+  width: 550px;
+}
+.container1,
+.container2,
+.container3 {
+  background: turquoise;
+  width: var(--size-box);
+  height: var(--size-box);
+}
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.element1 {
+    background: papayawhip;
+    display: inline-block;
+    text-align: left;
+    line-height: 45px;
+    vertical-align: top;
+}
+.element2 {
+    background: papayawhip;
+    display: inline-block;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.element3 {
+    background: papayawhip;
+    display: inline-block;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+

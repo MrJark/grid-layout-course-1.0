@@ -1,5 +1,16 @@
-Algunas Propiedades:
+Algunas Propiedades de alineamiento pre-CSS Grid y tenemos 4 distintas:
 
-    - text-align -> nos alinea el texto de forma horizontal
-    - vertical-aligh -> nos alinea de forma vertical
-    - line-height -> nos permite controlar los altos
+    1. margin -> para esta propiedad se necesitan:
+        - margin-top
+        - margin-left
+        - margin-right
+        - margin-bottom
+
+    2. line-height -> para esta técnica necesitamos 3 propiedades:
+        - tex-align -> nos alinea el texto de forma horizontal
+        - vertical-align -> nos alinea el texto de forma horizontal
+        - line-height -> nos permite controlar los altos, nos alinea de forma vertical
+
+    3. table-cell
+    4. positions
+
