@@ -1,0 +1,5 @@
+Algunas Propiedades:
+
+    - text-align -> nos alinea el texto de forma horizontal
+    - vertical-aligh -> nos alinea de forma vertical
+    - line-height -> nos permite controlar los altos
