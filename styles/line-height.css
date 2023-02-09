@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-:root{
-  --size-height:20px;
-  --size-box:180px;
-}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -11,19 +8,28 @@
   font-family: 'Lato', sans-serif;
   width: 550px;
 }
-.container1,
+
+/* Con esto, el código no me funcionaba */
+/* .container1,
 .container2,
 .container3 {
   background: turquoise;
   width: var(--size-box);
   height: var(--size-box);
-}
-.element {
+} */
+element {
   width: 60px;
   height: 60px;
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box;
+}
+.container1 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+  text-align: left;
+  line-height: 180px;
 }
 .element1 {
     background: papayawhip;
@@ -36,14 +42,69 @@
     background: papayawhip;
     display: inline-block;
     text-align: left;
-    line-height: 20px;
+    line-height: 45px;
     vertical-align: middle;
 }
 .element3 {
     background: papayawhip;
     display: inline-block;
     text-align: left;
-    line-height: 20px;
+    line-height: 45px;
     vertical-align: bottom;
 }
-
+.container2 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  line-height: 180px;
+}
+.element4 {
+  background: rgb(255, 213, 213);
+  display: inline-block;
+  text-align: left;
+  line-height: 45px;
+  vertical-align: top;
+}
+.element5 {
+  background: rgb(255, 213, 213);
+  display: inline-block;
+  text-align: left;
+  line-height: 45px;
+  vertical-align: middle;
+}
+.element6 {
+  background: rgb(255, 213, 213);
+  display: inline-block;
+  text-align: left;
+  line-height: 45px;
+  vertical-align: bottom;
+}
+.container3 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+  text-align: right;
+  line-height: 180px;
+}
+.element7 {
+  background: rgb(213, 220, 255);
+  display: inline-block;
+  text-align: left;
+  line-height: 45px;
+  vertical-align: top;
+}
+.element8 {
+  background: rgb(213, 220, 255);
+  display: inline-block;
+  text-align: left;
+  line-height: 45px;
+  vertical-align: middle;
+}
+.element9 {
+  background: rgb(213, 220, 255);
+  display: inline-block;
+  text-align: left;
+  line-height: 45px;
+  vertical-align: bottom;
+}
