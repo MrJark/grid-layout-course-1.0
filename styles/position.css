@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Lato', sans-serif;
+    width: 550px;
+}
+
+.container {
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+/* es el padre quien tiene el position: relative porque indica que a partir de este contenedor todos los hijos se van a posicionar*/
+.element {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.element1 {
+    background: papayawhip;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.element2 {
+    background: papayawhip;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+/* con el top: 50% le decimos que queremos que esté el hijo al 50% del padre pero empieza a tenerlo en cuenta a partir del borde superior del hijo, no de su mitad, por tanto ahí es donde entra el transform con las coordenadas x e y. En la x=0 porque está posicionado en este caso a la izquierda pero en la x, queremos que donde se encuentra el hijo, top:50%, le reste, de ahí el menos, el 50% del tamaño de él mismo, de ahí el -50% */
+.element3 {
+    background: papayawhip;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.element4 {
+    background: pink;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+}
+/* en este caso el transform lo ponemos en relación al eje x y no al y */
+.element5 {
+    background: pink;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+/* tenemos que jugar con las coordenadas x e y para posicionarlo */
+.element6 {
+    background: pink;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+.element7 {
+    background: rgb(82, 82, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.element8 {
+    background: rgb(82, 82, 255);
+    position: absolute;
+    right: 0;
+    transform: translate(0, -50%);
+    top: 50%;
+}
+.element9 {
+    background: rgb(82, 82, 255);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

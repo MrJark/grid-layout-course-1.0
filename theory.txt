@@ -11,6 +11,17 @@ Algunas Propiedades de alineamiento pre-CSS Grid y tenemos 4 distintas:
         - vertical-align -> nos alinea el texto de forma horizontal
         - line-height -> nos permite controlar los altos, nos alinea de forma vertical
 
-    3. table-cell
-    4. positions
+    3. table-cell -> para esta técnica tb necesitamos 3 propiedades
+        -display: table-cell
+        -text-align
+        -vertical-align
+
+    4. positions -> aquí necesitamos varias propiedades:
+        -position: relative / absolute
+            **En 'position: absolute', lo que vamos a tener en cuenta es la distancia entre el margen superior del contenedor que lo contiene y la parte superior del elemento que tiene esta propiedad
+        -top
+        -left
+        -right
+        -bottom
+        transform: translate() -> nos permite alinear dependiendo de las cordenadas x, y
 
