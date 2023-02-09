@@ -25,3 +25,11 @@ Algunas Propiedades de alineamiento pre-CSS Grid y tenemos 4 distintas:
         -bottom
         transform: translate() -> nos permite alinear dependiendo de las cordenadas x, y
 
+Técnicas de alineamiento con felxbox
+Guía para este tipo de alineamiento -> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+    Las propiedades que necesitamos son (solo para padres):
+
+        -display: flex;
+        -justify-content: ; Para alinear de forma horizontal
+        -align-items: ; Par aalinear de forma vertical
