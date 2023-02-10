@@ -6,10 +6,34 @@
     --black: #00243a;
     --white: #fff;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
 .head {
     width: 100px;
-    height: 200;
+    height: 200px;
     background: var(--skin);
     border-radius: 50px;
+    position: relative;
+}
+.eye-left {
+    width: 26px;
+    height: 26px;
+    background: var(--white);
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    border-radius: 100%;
+}
+.eye-right {
+    width: 26px;
+    height: 26px;
+    background: var(--white);
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    border-radius: 100%;
 }
