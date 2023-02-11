@@ -33,3 +33,23 @@ Guía para este tipo de alineamiento -> https://css-tricks.com/snippets/css/a-gu
         -display: flex;
         -justify-content: ; Para alinear de forma horizontal
         -align-items: ; Par aalinear de forma vertical
+
+Generación automática de tracks (conjunto de 2 o mas celdas):
+
+    -grd-auto-colums
+    -grid-auto-flow: row | colum | row dense | colum dense; 
+        Lo que hace dense es cambiar el orden visual de los elementos
+    -grid-gap:
+    -------
+    Ej: 
+        .contanier {
+        display: grid;
+        grid-template: repeat(2, 100px) / repeat(2, 100px);
+        grid-auto-flow: column; /* Agrega automaticamente columnas */
+        grid-auto-flow: row; /* Agrega automaticamente Filas */
+        grid-auto-columns: 100px; /* Define el tamaño de columnasa que se agregaran automaticamente*/
+        grid-auto-rows: 100px; /* Define el tamaño de las filas que se agregaran automaticamente */
+        }
+    -------
+    -auto-fit -> me ajusta las columnas o filas al ancho de la pantalla que tenga
+    -auto-fill -> me rellena con columnas o filas los espacios vacios de la pantalla
