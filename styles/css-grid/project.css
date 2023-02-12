@@ -1,0 +1,26 @@
+/* 
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;500;700&family=Poppins:wght@300;500;700;900&display=swap');
+
+:root {
+    --black: #020D0D;
+    --white: #FFF8FD;
+    --soft-pink: #DB00A4;
+    --dark-pink: #82256A;
+    --soft-blie: #14E6EB;
+    --dark-blue: #0C9A9D;
+    --background-dark: #262C32;
+    --background-light: #f9ffff;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #82256a, #604f9a, #096eb0, #0087ae, #0c9a9d);
+    height: 100vh;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) / repeat(10, 1fr);
+}
