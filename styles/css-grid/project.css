@@ -25,10 +25,126 @@ font-family: 'Poppins', sans-serif;
 body {
     font-family: 'Alegreya Sans', sans-serif;
     margin: 0;
-    background-image: linear-gradient(to right bottom, #82256a, #604f9a, #096eb0, #0087ae, #0c9a9d);
-    height: 100%;
+    background-image: linear-gradient(to right top, #82256a, #715daf, #2d90de, #00bdf0, #14e6eb);    
+    height: 100vh;
+    width: 100%;
 }
 .container {
     display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    height: 100%;
+}
+.item1 {
+    background: var(--books);
+    grid-column: 1 / 8;
+    grid-row: 1 / 4;
+    border-radius: 0px 0px 20px 0px;
+    text-align: center;
+    padding: 25px;
+    font-size: 60px;
+    color: var(--white);
+    letter-spacing: 13px;
+    display: grid;
+    align-items: center;
+}
+.item2 {
+    background: transparent;
+    grid-column: 1 / 4;
+    grid-row: 21 / 14;
+    border-radius: 0px 20px 0px 0px;
+    border: 10px solid var(--users);
+    text-align: center;
+    /* padding: 30px; */
+    font-size: 60px;
+    color: var(--white);
+    letter-spacing: 13px;
+    writing-mode: vertical-rl;
+    display: grid;
+    align-items: center;
+}
+.item3 {
+    background: transparent;
+    grid-column: 9 / 15;
+    grid-row: 3 / 6;
+    border-radius: 20px;
+    border: 10px solid var(--startups);
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color: var(--white);
+    display: grid;
+    align-items: center;
+}
+.item4 {
+    background: transparent;
+    grid-column: 16 / 21;
+    grid-row: 3 / 8;
+    border-radius: 100%;
+    border: 10px solid var(--growth);
+    text-align: center;
+    /* padding: 40px; */
+    font-size: 60px;
+    color: var(--white);
+    display: grid;
+    align-items: center;
+}
+.item5 {
+    background: transparent;
+    grid-column: 4 / 10;
+    grid-row: 11 / 14;
+    border-radius: 20px;
+    border: 10px solid var(--soft-skills);
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color: var(--white);
+    display: grid;
+    align-items: center;
+}
+.item6 {
+    background: transparent;
+    grid-column: 8 / 14;
+    grid-row: 17 / 19;
+    border-radius: 20px;
+    border: 10px solid var(--others);
+    text-align: center;
+    padding: 0px;
+    font-size: 60px;
+    color: var(--white);
+    display: grid;
+    align-items: center;
+}
+.item7 {
+    background: transparent;
+    grid-column: 13 / 19;
+    grid-row: 15 / 18;
+    border-radius: 20px;
+    border: 10px solid var(--thoughts);
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color: var(--white);
+    display: grid;
+    align-items: center;
+}
+.item8 {
+    color: var(--black);
+    font-size: 80px;
+    font-family: 'Poppins';
+    text-align: center;
+    letter-spacing: 14px;
+    grid-column: 7 / 15;
+    grid-row: 7 / 10;
+    border-top: 20px solid var(--black);
+    border-bottom: 20px solid var(--black);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.item9 {
+    color: var(--black);
+    font-size: 50px;
+    grid-column: 15 / 17;
+    grid-row: 9 / 10;
+    padding-bottom: 12px;
 }
